@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="/icons/unscramble-48.png" rel="shortcut icon" type="image/png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0' name='viewport' />
+	<title>Word Unscrambler</title>
+	<link href="design.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1 class="header"> Word Unscrambler </h1>
+	</header>
+	<div class=content>
+		<div wrapper>
+			<label for="letters">Letters</label>
+			<input type="text" id="letters"/>
+			<div class="button search" onclick="findWords()">Find Words</div>
+			<pre id="words"></pre>
+		</div>
+	</div>
+<script src="./ScrabbleDict.js"></script>
+<script src="js/WordFinder.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

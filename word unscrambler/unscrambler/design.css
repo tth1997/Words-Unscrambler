@@ -1,0 +1,31 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  width: 50%;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+}
+.header {
+  align-self: left;
+}
+.button {
+  margin: 3% auto;
+  padding: 1px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.search {
+  margin: 3% auto;
+  padding: 1px;
+  text-align: center;
+  color: green;
+}
+
+.lastResult {
+  color: green;
+  padding: 3px;
+}
