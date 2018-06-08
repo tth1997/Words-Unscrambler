@@ -5,11 +5,6 @@
   "version": "1.0",
   "description": "Enter any word and the app will return with a list of relevant words",
 
-"page_action": {
-  "browser_style": true,
-  "default_icon": {
-    "60": "icons/unscramble-60.png"
-  },
 "applications": {
   "gecko": {
     "id": "guessnum@example.com"
@@ -41,5 +36,4 @@
   	"ScrabbleDict.js"
   ]
 
-}
 }
