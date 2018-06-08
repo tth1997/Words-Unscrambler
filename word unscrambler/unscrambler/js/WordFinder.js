@@ -1,3 +1,4 @@
+
 var WordFinder = (() => {
   var WordFinder = function() {
     this.dict = new ScrabbleDictionary(ScrabbleDict);

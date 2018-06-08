@@ -6,6 +6,12 @@ function openMyPage() {
 	browser.tabs.create({
 		"url": "unscrambler/index.html"
 	});
+
+	// browser.tabs.create({"url": "unscrambler/index.html"}).then(() => {
+	//   browser.tabs.executeScript({
+	//     file: "/js/index.js"
+	//   });
+	// });
 }
 
 /* Listen in for clicks to browser_action */

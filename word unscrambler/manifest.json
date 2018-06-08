@@ -1,13 +1,13 @@
 {
 
   "manifest_version": 2,
-  "name": "Word Unscrambler",
+  "name": "Words Unscrambler",
   "version": "1.0",
   "description": "Enter any word and the app will return with a list of relevant words",
 
 "applications": {
   "gecko": {
-    "id": "guessnum@example.com"
+    "id": "wordsunscrambler@example.com"
   }
 },
 
@@ -25,15 +25,7 @@
 },
 
 "permissions":[
-	"activeTab",
-	"clipboardWrite",
-	"clipboardRead"
-],
-
-  "web_accessible_resources": [
-  	"unscrambler/js/WordFinder.js",
-  	"unscrambler/js/index.js",
-  	"ScrabbleDict.js"
-  ]
+	"activeTab"
+]
 
 }
