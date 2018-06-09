@@ -22,12 +22,15 @@ stList.empty();
 		  });
 	});
 }
+var totalWords = function(totalItems) {
+	$( '#totalwords' ).html( "Total Results: " + totalItems );
+}
 
 var findWords = function() {
 	// foundWords.innerHTML = WordFinder.find(letterInput.value.toLowerCase()).join('\n');
-	foundWords = WordFinder.find(letterInput.value.toLowerCase());
-	showlist(foundWords);
-  
+	var foundarray = WordFinder.find(letterInput.value.toLowerCase());
+	showlist(foundarray);
+	totalWords(foundarray.length);
 };
 
 var clearWords = function () {
