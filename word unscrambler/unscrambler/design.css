@@ -25,6 +25,12 @@ body {
   color: green;
 }
 
+.clear {
+  margin: auto;
+  text-align: center;
+  font-size: 12pt;
+}
+
 #resultlist {
       list-style-image: url('/icons/dictionary-icon.png');
 }
