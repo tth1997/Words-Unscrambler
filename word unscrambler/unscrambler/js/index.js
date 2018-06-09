@@ -30,6 +30,14 @@ var findWords = function() {
   
 };
 
+var clearWords = function () {
+ 	var selectedWords = $('#clearbtn')
+ 	var favItem = $('li.word-item.fav')
+ 	clearWords = 
+ 	favItem.remove();
+}
 
+var clearbutton = document.getElementById('clearbtn');
+clearbutton.addEventListener("click", clearWords, false);
 var button = document.getElementById('findbtn');
 button.addEventListener("click", findWords, false);
